@@ -1,168 +1,122 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>About</title>
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        />
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"
-        ></script>
 
-        <style>
-            body {
-                background-image: url(assets/images/background.png);
-            }
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
-            .border-top {
-                border-width: 8px !important;
-            }
+    <style>
+        body {
+            background-image: url(assets/images/background.png);
+        }
 
-            @media screen and (max-width: 400px) {
-                h1 {
-                    font-size: 2rem;
-                }
-                h2 {
-                    font-size: 1.5rem;
-                }
-            }
-            @media screen and (max-width: 350px) {
-                h1 {
-                    font-size: 1.5rem;
-                }
-                h2 {
-                    font-size: 1rem;
-                }
-            }
-        </style>
-    </head>
+        .border-top {
+            border-width: 8px !important;
+        }
+    </style>
+</head>
 
-    <body class="d-flex flex-column h-100">
-        <nav class="navbar navbar-expand-xl navbar-dark bg-dark py-0">
-            <div class="container px-0">
-                <a class="navbar-brand py-0" href="#">
-                    <h1 class="bg-info my-0 p-3">Brandt Strom</h1>
-                </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarToggler"
-                    aria-controls="navbarToggler"
-                    aria-expanded="true"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<body class="d-flex flex-column h-100">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark py-0">
+        <div class="container px-0">
+            <a class="navbar-brand py-0" href="#">
+                <h1 class="bg-info my-0 p-3">Brandt Strom</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div
-                    class="collapse navbar-collapse justify-content-end"
-                    id="navbarToggler"
-                >
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html"
-                                >About</a
-                            >
-                        </li>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html"
-                                >Portfolio</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div
-            class="container bg-dark text-light my-4 p-4 rounded-lg flex-shrink-0 shadow-lg"
-        >
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>About Me</h2>
-                    <hr class="border border-light" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <img
-                        src="assets/images/photo.png"
-                        class="rounded-lg float-left mr-3 mb-3"
-                        alt="Photo of Brandt"
-                        width="200px"
-                    />
-                    <p>
-                        Hello! If you want to know more about me, then keep
-                        reading. Otherwise, feel free to hit that back button or
-                        close your browser. You have been warned...
-                    </p>
-                    <p>
-                        My name is Brandt Strom, but considering the large
-                        header on this page you probably already knew that. What
-                        you probably do NOT know, is that I am a 29 year old
-                        Norwegian strawberry currently living in Redmond, WA. My
-                        wife, Rachel, and I have lived in the same two bedroom
-                        apartment for about 5 years now. We hope to own a home
-                        some day, but the important details of 'where' and
-                        'when' this will be are still unknown at this time.
-                    </p>
-                    <p>
-                        My history is not very exciting but I don't have any
-                        complaints. I have two sisters and spent most of my
-                        childhood living in Puyallup. I spent a lot of time
-                        getting into trouble with friends and playing video
-                        games. Soccer consumed many evenings and weekends, and I
-                        still enjoy kicking a ball around to this day. After
-                        graduating from high school, I moved to Ellensburg for 4
-                        years where I attended Central Washington University. It
-                        was there that I obtained a degree in Computer Science,
-                        which allowed me to secure a software development
-                        position in Redmond. I have been a software engineer for
-                        almost 7 years now and I am excited to keep growing in
-                        this field.
-                    </p>
-                    <p>
-                        When I'm looking for something to do in my spare time, I
-                        usually enjoy playing video games and catching up with
-                        friends. I also enjoy listening to music and watching
-                        movies with Rachel. When my neighbors are not home I
-                        will occasionally use the opportunity to mess around on
-                        my drum set. Additionally, I try to make an effort to
-                        expand my knowledge on all things computers and
-                        technology by watching videos and reading blogs and
-                        articles.
-                    </p>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        <footer
-            class="footer mt-auto py-3 bg-dark text-light border-top border-info"
-        >
-            <div class="container">
-                <p class="text-center mb-0 pt-3">Copyright ©</p>
+    <div class="container bg-dark text-light my-4 p-4 rounded-lg flex-shrink-0 shadow-lg">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>About Me</h2>
+                <hr class="border border-light" />
             </div>
-        </footer>
-    </body>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="assets/images/photo.png" class="rounded-lg float-left mr-3 mb-3" alt="Photo of Brandt"
+                    width="200px" />
+                <p>
+                    Hello! If you want to know more about me, then keep
+                    reading. Otherwise, feel free to hit that back button or
+                    close your browser. You have been warned...
+                </p>
+                <p>
+                    My name is Brandt Strom, but considering the large
+                    header on this page you probably already knew that. What
+                    you probably do NOT know, is that I am a 29 year old
+                    Norwegian strawberry currently living in Redmond, WA. My
+                    wife, Rachel, and I have lived in the same two bedroom
+                    apartment for about 5 years now. We hope to own a home
+                    some day, but the important details of 'where' and
+                    'when' this will be are still unknown at this time.
+                </p>
+                <p>
+                    My history is not very exciting but I don't have any
+                    complaints. I have two sisters and spent most of my
+                    childhood living in Puyallup. I spent a lot of time
+                    getting into trouble with friends and playing video
+                    games. Soccer consumed many evenings and weekends, and I
+                    still enjoy kicking a ball around to this day. After
+                    graduating from high school, I moved to Ellensburg for 4
+                    years where I attended Central Washington University. It
+                    was there that I obtained a degree in Computer Science,
+                    which allowed me to secure a software development
+                    position in Redmond. I have been a software engineer for
+                    almost 7 years now and I am excited to keep growing in
+                    this field.
+                </p>
+                <p>
+                    When I'm looking for something to do in my spare time, I
+                    usually enjoy playing video games and catching up with
+                    friends. I also enjoy listening to music and watching
+                    movies with Rachel. When my neighbors are not home I
+                    will occasionally use the opportunity to mess around on
+                    my drum set. Additionally, I try to make an effort to
+                    expand my knowledge on all things computers and
+                    technology by watching videos and reading blogs and
+                    articles.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-dark text-light border-top border-info">
+        <div class="container">
+            <p class="text-center mb-0 pt-3">Copyright ©</p>
+        </div>
+    </footer>
+</body>
+
 </html>
